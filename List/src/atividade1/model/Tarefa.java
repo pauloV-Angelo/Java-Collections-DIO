@@ -1,4 +1,4 @@
-package model;
+package atividade1.model;
 
 public class Tarefa {
 private String descricao;
@@ -15,6 +15,10 @@ public void setDescricao(String descricao) {
 	this.descricao = descricao;
 }
 
+@Override
+public String toString() {
+	return descricao;
+}
 
 
 }
