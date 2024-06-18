@@ -1,6 +1,6 @@
-package atividade2.application;
+package operacoesbasicas.atv2.application;
 
-import atividade2.model.CarrinhoDeCompras;
+import operacoesbasicas.atv2.model.CarrinhoDeCompras;
 
 public class Main {
 

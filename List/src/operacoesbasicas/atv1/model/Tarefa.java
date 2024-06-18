@@ -1,4 +1,4 @@
-package atividade1.model;
+package operacoesbasicas.atv1.model;
 
 public class Tarefa {
 private String descricao;

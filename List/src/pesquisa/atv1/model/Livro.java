@@ -1,4 +1,4 @@
-package atividade3.model;
+package pesquisa.atv1.model;
 
 public class Livro {
 

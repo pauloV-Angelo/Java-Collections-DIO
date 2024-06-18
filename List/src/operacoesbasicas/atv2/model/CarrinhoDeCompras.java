@@ -1,4 +1,4 @@
-package atividade2.model;
+package operacoesbasicas.atv2.model;
 
 import java.util.ArrayList;
 import java.util.Iterator;

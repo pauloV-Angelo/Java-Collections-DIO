@@ -1,4 +1,4 @@
-package atividade2.model;
+package operacoesbasicas.atv2.model;
 
 public class Item {
 	private String nome;

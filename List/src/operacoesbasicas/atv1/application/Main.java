@@ -1,6 +1,6 @@
-package atividade1.application;
+package operacoesbasicas.atv1.application;
 
-import atividade1.model.ListaTarefas;
+import operacoesbasicas.atv1.model.ListaTarefas;
 
 public class Main {
 
