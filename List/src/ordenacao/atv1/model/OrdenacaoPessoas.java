@@ -11,7 +11,6 @@ public class OrdenacaoPessoas {
 	private List<Pessoa> listaPessoas;
 
 	public OrdenacaoPessoas() {
-		super();
 		this.listaPessoas = new ArrayList<>();
 	}
 	
@@ -21,13 +20,13 @@ public class OrdenacaoPessoas {
 	
 	public void ordenarPorIdade() {
 		Collections.sort(listaPessoas);
-		System.out.println(listaPessoas);
+		listaPessoas.stream().forEach(p -> System.out.println(p));
 	}
 
 	public void ordenarPorAltura() {
 		ComparatorPessoaPorAltura comparator = new ComparatorPessoaPorAltura();
-		Collections.sort(listaPessoas, comparator);
-		System.out.println(listaPessoas);
+		listaPessoas.sort(comparator);
+		listaPessoas.stream().forEach(p -> System.out.println(p));
 	}
 	
 	public void pessoaList() {
